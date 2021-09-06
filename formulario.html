@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+    <style>
+        h1{
+            text-align: center;
+        }
+        table{
+            margin: auto;
+        }
+        input#type[submit]{
+           margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Formulario de Pré-Matricula</h1>
+    <hr>
+    <table id="douglas" border="2" cellspacing="15px" cellpadding="10px">
+        <tr>
+            <td>
+                <fieldset>
+                    <legend>Dados Pessoas:</legend>
+                    Nome do Aluno: <input type="text" name="" id=""> <br>
+                    Nascimento(dd/mm/aaaa): <input type="text" name="" id=""> <br>
+                    Nome da Mãe: <input type="text" name="" id="" > <br>
+                    Nome do Pai: <input type="text" name="" id=""> <br>
+                    Telefone: DDD( <input type="text" name="" id="" size="2">) Tel:<input type="text" name="" id="" maxlength="2" size="2"> Ramal:<input type="text" name="" id="" maxlength="2" size="2"> <br>
+                    Email: <input type="text" name="" id="">
+                </fieldset>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <fieldset>
+                    <legend>Irformações de Matricula:</legend>
+                    <table id="doug"> 
+                        <tr>
+                            <td rowpad="2">Serie:</td>
+                            <td>Turno:</td>
+                            <td>Atividades Extracurriculares</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <select name="" id="">
+                                    <option value="">pre-escolar</option>
+                                    <option value="">pre-escolar</option>
+                                    <option value="">pre-escolar</option>
+                                </select>
+                            </td>
+                            <td><input type="radio" name="radioturno" id=""> Manhã</td>
+                            <td><input type="checkbox" name="radioturno" id="">Infórmatica</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td><input type="radio" name="radioturno" id=""> Tarde</td>
+                            <td><input type="checkbox" name="" id="">Música</td>
+
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td><input type="checkbox" name="" id="">Ballet<td>
+
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td><input type="checkbox" name="" id="">Pintura<td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td><input type="checkbox" name="" id="">Judô<td>
+
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td><input type="checkbox" name="" id="">Futebol</td>
+                        </tr>
+
+                        
+                        
+                    </table>
+                    <br>
+                </fieldset>
+            </td>
+        </tr>
+    </table>
+    <input type="submit" value="Enviar Formulario">
+    <input type="submit" value="Limpar Dados">
+    <footer>
+        <p>desenvolvido por Douglas Silva</p>
+    </footer>
+</body>
+</html>
